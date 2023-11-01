@@ -9,7 +9,7 @@ import { ClientModule } from './client/client.module';
   imports: [
     ConfigModule.forRoot({
       envFilePath: '.development.env',
-    }), 
+    }),
     RecipeModule, 
     ClientModule,
   ],
